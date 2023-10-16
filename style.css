@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: hsl(235, 18%, 26%);
+}
+#container {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    width: 70%;
+    height: 45%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    border-radius: 20px;
+    margin-top: 60px; 
+    background-color:  hsl(0, 0%, 100%);
+}
+#icon {
+    width: 20px;
+}
+h1 {
+    font-size: 26px !important;
+    color: hsl(234, 29%, 20%);
+}
+.text {
+    margin: 20px;
+    /* font-size: 16px; */
+    /* margin-top: 40px; */
+    /* margin-bottom: 10px; */
+    margin-left: 30px;
+}
+.top-text {
+   margin-bottom: 20px; 
+}
+#input {
+     margin-bottom: 50px; 
+    display: flex;
+    flex-direction: column;
+    /* align-items: space-between; */
+    gap: 30px;
+}
+#in {
+    height: 50px;
+    width: 360px;
+    border-radius: 8px;
+    border: 1px solid hsl(231, 7%, 60%);
+    padding-left: 15px;
+    font-size: 14px;
+}
+button {
+    height: 50px;
+    border-radius: 8px;
+    background-color: hsl(234, 29%, 20%);
+    color:  hsl(0, 0%, 100%);
+    width: 360px;
+    font-size: 14px;
+}
+button:hover {
+    background-color:  hsl(4, 100%, 67%);
+    cursor: pointer;
+}
+#in:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.attribution {
+    margin-top: 20px;
+    color: hsl(215, 18%, 76%);
+}
+.attribution a {
+    text-decoration: none;
+    color: white;
+}
